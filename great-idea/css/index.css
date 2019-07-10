@@ -86,7 +86,7 @@ header {
 	overflow: hidden;
 }
 
-ul {
+nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
