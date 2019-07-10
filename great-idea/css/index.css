@@ -69,7 +69,6 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 876px;
 	margin: 0 auto;
-	border: 1px solid red;
 }
 
 
@@ -207,6 +206,56 @@ p.center {
 	width: 100%;
 }
 
+.services-top {
+	margin-bottom: 40px;
+}
+
 .services-top h2 {
-	font-size: 20px;
+	font-size: 28px;
+}
+
+.services-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;
+	height: 85vh;
+}
+
+.service-box {
+	border: 1px solid black;
+	background: whitesmoke;
+	width: 48%;
+	padding: 24px;
+	/* margin-bottom: 20px; */
+}
+
+.service-box button {
+	font-size: 12px;
+	margin-top: 20px;
+	padding: 5px 42px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.services-facts {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 90px;
+}
+
+.fact-box {
+	width: 46%;
+}
+
+.fact-box ul {
+	display: flex;
+	flex-direction: column;
+	list-style: square inside none;
+}
+
+.fact-box ul li {
+	margin-top: 15px;
+	align-self: flex-start;
 }
