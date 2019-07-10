@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 876px;
 	margin: 0 auto;
+	border: 1px solid red;
 }
 
 
@@ -173,7 +174,7 @@ hr {
 .top, .bottom {
 	display: flex;
 	justify-content: space-between;
-?}
+}
 
 .half {
 	width: 49%;
@@ -196,4 +197,16 @@ p.center {
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 100px;
+}
+
+/* Services.html Page Unique Styles */
+
+.services-header-img {
+	margin-top: 115px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+.services-top h2 {
+	font-size: 20px;
 }
