@@ -86,10 +86,11 @@ header {
 	overflow: hidden;
 }
 
-nav {
+ul {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex: 1;
 	padding: 10px 0;
 }
 
@@ -114,6 +115,7 @@ a:hover {
 }
 
 .nav-shadow {
+	margin-top: 5px;
 	height: 3px;
 	width: 100%;
 	background-color: black;
