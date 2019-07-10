@@ -94,6 +94,12 @@ nav {
 	padding: 10px 0;
 }
 
+.links {
+	display: flex;
+	justify-content: space-between;
+	width: 68%;
+}
+
 a {
 	color: silver;
 	font-size: 0.8rem;
@@ -258,4 +264,73 @@ p.center {
 .fact-box ul li {
 	margin-top: 15px;
 	align-self: flex-start;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+
+	.container {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	header {
+		padding-top: 15px;
+	}
+
+	.sticky {
+		width: 100%;
+	}
+
+	nav {
+		display: flex;
+		padding: 20px;
+		flex-wrap: wrap;
+	}
+
+	.links {
+		order: 1;
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.logo {
+		order: -1;
+		margin-bottom: 20px;
+	}
+
+	.mobile {
+		padding: 20px;
+	}
+
+	hr {
+		display: none;
+	}
+
+	.services-content {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+		height: auto;
+	}
+
+	.service-box {
+		width: 80%;
+		margin-bottom: 20px;
+	}
+
+	.services-facts {
+		display: flex;
+		flex-direction: column-reverse;
+		padding: 20px;
+		margin-bottom: 0;
+	}
+
+	.fact-box {
+		width: 100%;
+		margin-top: 40px;
+		margin-bottom: 0px;
+	}
 }
